@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
           alignment: Alignment.center,
           padding: const EdgeInsets.all(0),          
           decoration: const BoxDecoration(
-          image: DecorationImage(image: NetworkImage('https://1.bp.blogspot.com/-tLlFDiULG_w/XykpKtHgOGI/AAAAAAAAL5I/EsPPUEiOKX8SE0BiCI6hub3DcDU1-MthwCLcBGAsYHQ/s2048/Naruto-Uzumaki-wallpaper.png'))  
+          image: DecorationImage(image: AssetImage('lib/assets/img/Naruto.png'))  
           ),
           child: const TabuadaScreen()),
       ),
